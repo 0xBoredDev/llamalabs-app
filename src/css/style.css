@@ -1,0 +1,470 @@
+body {
+  background-color: #05071e !important;
+}
+
+#app {
+  background-color: #05071e;
+  min-width: 1138px;
+  max-width: 1300px;
+  overflow: hidden;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.pink {
+  color: #e83fcb !important;
+}
+
+.bg-pink {
+  background-color: #e83fcb !important;
+}
+
+.red {
+  color: #990000 !important;
+}
+
+.bg-red {
+  background-color: #990000 !important;
+}
+
+.lightred {
+  color: #ffdede !important;
+}
+
+.bg-lightred {
+  background-color: #ffdede !important;
+}
+
+.bg-purple {
+  background-color: #774a91 !important;
+}
+
+.bg-lightpurple {
+  background-color: #eebfff !important;
+}
+
+.lightpurple {
+  color: #eebfff !important;
+}
+
+.bg-darkpurple {
+  background-color: #2a075e !important;
+}
+
+.teal {
+  color: #00f4d4 !important;
+}
+
+.bg-teal {
+  background-color: #00f4d4 !important;
+}
+
+.green {
+  color: #aef359 !important;
+}
+
+.bg-green {
+  background-color: #aef359 !important;
+}
+
+.bg-darkgreen {
+  background-color: #061d15 !important;
+}
+
+.icon-group {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: -10px;
+}
+
+.header-icon {
+  margin-top: 10px;
+  margin-left: 10px;
+  color: #fff !important;
+  font-size: 32px;
+}
+
+#navbar {
+  border-bottom: 1px solid #e83fcb !important;
+}
+
+.nav-link {
+  font-family: "ChakraPetch-light";
+  color: white !important;
+  align-items: center;
+  display: flex;
+  margin-right: 24px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  color: #e83fcb !important;
+}
+
+.nav-link.active {
+  color: #e83fcb !important;
+}
+
+.header-icon:hover {
+  color: #262262;
+}
+
+.divider {
+  color: #1c1d31;
+  align-items: center;
+  display: flex;
+  margin-right: 24px;
+  font-size: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0.2rem 1rem;
+}
+
+.header-links {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.valign {
+  vertical-align: middle;
+}
+
+.toggle-btn {
+  color: #fff;
+}
+
+.title {
+  font-family: "ChakraPetch-Bold";
+  color: #e83fcb;
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 1em;
+  /* letter-spacing: 2.4px; */
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.sub-title {
+  font-family: "ChakraPetch-Medium";
+  color: #e83fcb;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1em;
+  /* letter-spacing: 2.4px; */
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.description {
+  font-size: 1rem;
+  font-family: "ChakraPetch-Light";
+  color: white;
+  margin-bottom: 40px;
+  line-height: 1.3em;
+}
+
+.section-img {
+  width: 100%;
+  height: 100%;
+  max-height: fit-content;
+}
+
+.text {
+  color: #e83fcb;
+  font-family: "ChakraPetch-Light";
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 1.2em;
+  letter-spacing: 0.5px;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.social-icon {
+  margin: 0 10px 10px 10px;
+}
+
+.social-img {
+  height: 40px;
+}
+
+.section-info1 {
+  background-image: url("../images/Llamaverse_Assets/sl1.png");
+  background-repeat: round;
+  height: 100%;
+}
+
+.section-info2 {
+  background-image: url("../images/WLP_Assets/sr2.png");
+  /* background-repeat: round; */
+  height: 100%;
+}
+
+.section-info3 {
+  background-image: url("../images/OP_Sin_Assets/sl3.png");
+  /* background-repeat: round; */
+  height: 100%;
+}
+
+.section-info4 {
+  background-image: url("../images/NuCyber_Assets/sr4.png");
+  /* background-repeat: round; */
+  height: 100%;
+}
+
+.section-info5 {
+  background-image: url("../images/GoSU_Assets/sl5.png");
+  /* background-repeat: round; */
+  height: 100%;
+}
+
+.section-btn-1 {
+  font-family: "ChakraPetch-Bold";
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #262262;
+  border: none;
+  padding: 10px 30px;
+  margin: 10px 30px 10px 0;
+}
+
+.section-btn-2 {
+  font-family: "ChakraPetch-Light";
+  text-transform: uppercase;
+  font-size: 15px;
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  margin: 10px 0 10px 0;
+}
+
+.nuccol {
+  margin-top: -125px !important;
+  z-index: 10;
+}
+
+.opcol {
+  margin-top: 50px !important;
+}
+
+.gosucol {
+  margin-top: 130px !important;
+}
+
+#llamaverse {
+  position: relative;
+  display: grid;
+  grid-template-rows: 1fr;
+}
+
+#whitelistping {
+  position: relative;
+  display: grid;
+  grid-template-rows: 1fr;
+  background-color: #14242e !important;
+}
+
+#operationsin {
+  position: relative;
+  display: grid;
+  grid-template-rows: 1fr;
+  background-color: #180201 !important;
+}
+
+#nucyber {
+  position: relative;
+  display: grid;
+  grid-template-rows: 1fr;
+  background-color: #130329 !important;
+}
+
+#gosutools {
+  position: relative;
+  display: grid;
+  grid-template-rows: 1fr;
+  margin-top: -125px;
+  background-color: #070e0a !important;
+}
+
+.trans1 {
+  position: absolute;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: -20%;
+  padding: 0 !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 100%;
+  z-index: 9;
+}
+
+.trans2 {
+  position: absolute;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: -20%;
+  padding: 0 !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 100%;
+  z-index: 9;
+}
+
+.trans3 {
+  position: absolute;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: -20%;
+  padding: 0 !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 100%;
+  z-index: 12;
+}
+
+.trans4 {
+  position: absolute;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: -5.5%;
+  padding: 0 !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 100%;
+  z-index: 13;
+}
+
+.footer {
+  background-color: #05071e;
+  text-align: center;
+  border-top: 1px solid #e83fcb !important;
+}
+
+.footer-text {
+  font-family: "ChakraPetch-Medium";
+  color: #e83fcb;
+  font-size: 1rem;
+  margin: 40px;
+}
+
+@media screen and (max-width: 767.98px) {
+  .title {
+    font-size: 3.3rem;
+  }
+
+  .sub-title {
+    font-size: 1.2rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+
+  .section-btn-1 {
+    font-size: 15px;
+    color: #262262;
+    padding: 8px 25px;
+    margin: 10px 30px 10px 0;
+  }
+
+  .section-btn-2 {
+    font-size: 15px;
+    color: white;
+    padding: 8px 25px;
+    margin: 10px 0 10px 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+  .title {
+    font-size: 3.3rem;
+  }
+
+  .sub-title {
+    font-size: 1.2rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+
+  .section-btn-1 {
+    font-size: 15px;
+    color: #262262;
+    padding: 8px 25px;
+    margin: 10px 30px 10px 0;
+  }
+
+  .section-btn-2 {
+    font-size: 15px;
+    color: white;
+    padding: 8px 25px;
+    margin: 10px 0 10px 0;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .title {
+    font-size: 3.5rem;
+  }
+
+  .sub-title {
+    font-size: 1.3rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+  .section-btn-1 {
+    font-size: 15px;
+    color: #262262;
+    padding: 8px 25px;
+    margin: 10px 30px 10px 0;
+  }
+
+  .section-btn-2 {
+    font-size: 15px;
+    color: white;
+    padding: 8px 25px;
+    margin: 10px 0 10px 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .title {
+    font-size: 3.4rem;
+  }
+
+  .sub-title {
+    font-size: 1.3rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+  .section-btn-1 {
+    font-size: 15px;
+    color: #262262;
+    padding: 12px 32px;
+    margin: 10px 30px 10px 0;
+  }
+
+  .section-btn-2 {
+    font-size: 15px;
+    color: white;
+    padding: 12px 32px;
+    margin: 10px 0 10px 0;
+  }
+}

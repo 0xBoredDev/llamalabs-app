@@ -1,0 +1,35 @@
+/**
+ * @license
+ *
+ *Copyright 2018 The Chakra Petch Project Authors (https://github.com/m4rc1e/Chakra-Petch.git)
+ *This Font Software is licensed under the SIL Open Font License, Version 1.1.
+ *This license is copied below, and is also available with a FAQ at:
+ *http://scripts.sil.org/OFL
+
+ * Font Styles:
+ * ChakraPetch Light
+ * ChakraPetch Medium
+ * ChakraPetch Bold
+ *
+*/
+
+@font-face {
+  font-family: "ChakraPetch-Light";
+  src: url("../fonts/ChakraPetch-Light.ttf") format("truetype");
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ChakraPetch-Medium";
+  src: url("../fonts/ChakraPetch-Medium.ttf") format("truetype");
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ChakraPetch-Bold";
+  src: url("../fonts/ChakraPetch-Bold.ttf") format("truetype");
+  font-display: swap;
+  font-style: normal;
+}
