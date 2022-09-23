@@ -1,5 +1,6 @@
 body {
   background-color: #05071e !important;
+  /* overflow: hidden; */
 }
 
 #app {
@@ -78,8 +79,6 @@ body {
 }
 
 .header-icon {
-  margin-top: 10px;
-  margin-left: 10px;
   color: #fff !important;
   font-size: 32px;
 }
@@ -208,25 +207,21 @@ body {
 
 .section-info2 {
   background-image: url("../images/WLP_Assets/sr2.png");
-  /* background-repeat: round; */
   height: 100%;
 }
 
 .section-info3 {
   background-image: url("../images/OP_Sin_Assets/sl3.png");
-  /* background-repeat: round; */
   height: 100%;
 }
 
 .section-info4 {
   background-image: url("../images/NuCyber_Assets/sr4.png");
-  /* background-repeat: round; */
   height: 100%;
 }
 
 .section-info5 {
   background-image: url("../images/GoSU_Assets/sl5.png");
-  /* background-repeat: round; */
   height: 100%;
 }
 
@@ -250,9 +245,13 @@ body {
   margin: 10px 0 10px 0;
 }
 
+.wlpcol {
+  z-index: 9;
+}
+
 .nuccol {
   margin-top: -125px !important;
-  z-index: 10;
+  z-index: 20;
 }
 
 .opcol {
@@ -359,74 +358,25 @@ body {
   margin: 40px;
 }
 
-@media screen and (max-width: 767.98px) {
-  .title {
-    font-size: 3.3rem;
+@media screen and (max-width: 575.98px) {
+  #app {
+    min-width: 338px;
   }
 
-  .sub-title {
-    font-size: 1.2rem;
-  }
-
-  .description {
-    font-size: 1rem;
-  }
-
-  .section-btn-1 {
-    font-size: 15px;
-    color: #262262;
-    padding: 8px 25px;
-    margin: 10px 30px 10px 0;
-  }
-
-  .section-btn-2 {
-    font-size: 15px;
-    color: white;
-    padding: 8px 25px;
-    margin: 10px 0 10px 0;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 991.98px) {
-  .title {
-    font-size: 3.3rem;
-  }
-
-  .sub-title {
-    font-size: 1.2rem;
-  }
-
-  .description {
-    font-size: 1rem;
-  }
-
-  .section-btn-1 {
-    font-size: 15px;
-    color: #262262;
-    padding: 8px 25px;
-    margin: 10px 30px 10px 0;
-  }
-
-  .section-btn-2 {
-    font-size: 15px;
-    color: white;
-    padding: 8px 25px;
-    margin: 10px 0 10px 0;
-  }
-}
-
-@media screen and (min-width: 992px) and (max-width: 1199.98px) {
   .title {
     font-size: 3.5rem;
   }
 
   .sub-title {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
   }
 
   .description {
     font-size: 1rem;
+    max-width: 90%;
+    margin-bottom: 10px;
   }
+
   .section-btn-1 {
     font-size: 15px;
     color: #262262;
@@ -438,17 +388,173 @@ body {
     font-size: 15px;
     color: white;
     padding: 8px 25px;
+    margin: 10px 0 10px 0;
+  }
+
+  .social-icons {
+    flex-direction: row;
+    margin-top: 20px !important;
+  }
+
+  #llamaverse {
+    z-index: 6;
+  }
+
+  #whitelistping {
+    margin-top: -200px;
+    z-index: 5;
+  }
+
+  #nucyber {
+    margin-top: -147px;
+  }
+
+  .trans1,
+  .trans2,
+  .trans3,
+  .trans4 {
+    visibility: hidden !important;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+  #app {
+    min-width: 438px;
+  }
+
+  .title {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+
+  .sub-title {
+    font-size: 0.7rem;
+    margin-bottom: 10px;
+  }
+
+  .description {
+    font-size: 0.6rem;
+    margin-bottom: 10px;
+  }
+
+  .social-img {
+    height: 25px;
+  }
+
+  .section-btn-1 {
+    font-size: 8px;
+    color: #262262;
+    padding: 4px 5px;
+    margin: 10px 10px 10px 0;
+  }
+
+  .section-btn-2 {
+    font-size: 8px;
+    color: white;
+    padding: 4px 5px;
+    margin: 10px 0 10px 0;
+  }
+
+  #gosutools {
+    margin-top: -70px !important;
+  }
+
+  .nuccol {
+    margin-top: -70px !important;
+  }
+
+  .gosucol {
+    margin-top: 90px !important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+  #app {
+    min-width: 438px;
+  }
+
+  .title {
+    font-size: 2.2rem;
+  }
+
+  .sub-title {
+    font-size: 0.9rem;
+  }
+
+  .description {
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+  }
+
+  .social-img {
+    height: 30px;
+  }
+
+  .section-btn-1 {
+    font-size: 12px;
+    color: #262262;
+    padding: 4px 10px;
+    margin: 10px 15px 10px 0;
+  }
+
+  .section-btn-2 {
+    font-size: 12px;
+    color: white;
+    padding: 4px 10px;
+    margin: 10px 0 10px 0;
+  }
+
+  #gosutools {
+    margin-top: -97px !important;
+  }
+
+  .nuccol {
+    margin-top: -97px !important;
+  }
+
+  .gosucol {
+    margin-top: 100px !important;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+  #app {
+    min-width: 438px;
+  }
+
+  .title {
+    font-size: 3.4rem;
+  }
+
+  .sub-title {
+    font-size: 1.5rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+  .section-btn-1 {
+    font-size: 15px;
+    color: #262262;
+    padding: 6px 15px;
+    margin: 10px 10px 10px 0;
+  }
+
+  .section-btn-2 {
+    font-size: 15px;
+    color: white;
+    padding: 6px 15px;
     margin: 10px 0 10px 0;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .title {
-    font-size: 3.4rem;
+    font-size: 3.7rem;
   }
 
   .sub-title {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
   }
 
   .description {
