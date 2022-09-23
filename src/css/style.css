@@ -272,7 +272,7 @@ body {
   position: relative;
   display: grid;
   grid-template-rows: 1fr;
-  background-color: #14242e !important;
+  background-color: #151825 !important;
 }
 
 #operationsin {
@@ -401,12 +401,21 @@ body {
   }
 
   #whitelistping {
-    margin-top: -200px;
+    /* margin-top: -200px; */
     z-index: 5;
   }
 
-  #nucyber {
-    margin-top: -147px;
+  .opcol {
+    margin-top: 0 !important;
+  }
+
+  .nuccol {
+    margin-top: 0 !important;
+    z-index: 20;
+  }
+
+  .gosucol {
+    margin-top: 0 !important;
   }
 
   .trans1,
@@ -429,12 +438,12 @@ body {
 
   .sub-title {
     font-size: 0.7rem;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
   }
 
   .description {
     font-size: 0.6rem;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
 
   .social-img {
@@ -444,14 +453,14 @@ body {
   .section-btn-1 {
     font-size: 8px;
     color: #262262;
-    padding: 4px 5px;
+    padding: 2px 4px;
     margin: 10px 10px 10px 0;
   }
 
   .section-btn-2 {
     font-size: 8px;
     color: white;
-    padding: 4px 5px;
+    padding: 2px 4px;
     margin: 10px 0 10px 0;
   }
 
@@ -523,11 +532,11 @@ body {
   }
 
   .title {
-    font-size: 3.4rem;
+    font-size: 3.1rem;
   }
 
   .sub-title {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   .description {

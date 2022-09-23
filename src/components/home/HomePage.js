@@ -46,7 +46,12 @@ function HomePage() {
   }
 
   useEffect(() => {
-    window.addEventListener("resize", updatePredicate());
+    window.addEventListener("resize", (e) => {
+      console.log("resize");
+      console.log(window.innerWidth <= 575.98);
+      updatePredicate();
+    });
+    //   window.addEventListener("resize", updatePredicate());
   }, []);
 
   return (
@@ -123,9 +128,11 @@ function HomePage() {
       </div>
       <div id="whitelistping">
         <div className="row align-items-center section-info2">
-          <div className="col-sm-6">
-            <img src={sl2} className="section-img"></img>
-          </div>
+          {!isMobile && (
+            <div className="col-sm-6">
+              <img src={sl2} className="section-img"></img>
+            </div>
+          )}
           <div className="col-sm-6 wlpcol">
             <div className="row">
               <div className="col-sm-3 col-md-3 col-lg-3 social-icons">
@@ -178,6 +185,11 @@ function HomePage() {
               </div>
             </div>
           </div>
+          {isMobile && (
+            <div className="col-sm-6">
+              <img src={sl2sm} className="section-img"></img>
+            </div>
+          )}
         </div>
         <img className="trans2" src={s2}></img>
       </div>
@@ -238,16 +250,22 @@ function HomePage() {
             </div>
           </div>
           <div className="col-sm-6">
-            <img src={sr3} className="img-fluid section-img"></img>
+            {isMobile ? (
+              <img src={sr3sm} className="img-fluid section-img"></img>
+            ) : (
+              <img src={sr3} className="img-fluid section-img"></img>
+            )}
           </div>
         </div>
         <img className="trans3" src={s3}></img>
       </div>
       <div id="nucyber">
         <div className="row align-items-center section-info4">
-          <div className="col-sm-6" style={{ zIndex: 10 }}>
-            <img src={sl4} className="section-img"></img>
-          </div>
+          {!isMobile && (
+            <div className="col-sm-6" style={{ zIndex: 10 }}>
+              <img src={sl4} className="section-img"></img>
+            </div>
+          )}
           <div className="col-sm-6 nuccol">
             <div className="row mts-70">
               <div className="col-sm-3 col-md-3 col-lg-3 social-icons">
@@ -303,6 +321,11 @@ function HomePage() {
             </div>
           </div>
         </div>
+        {isMobile && (
+          <div className="col-sm-6">
+            <img src={sl4sm} className="section-img"></img>
+          </div>
+        )}
         <img className="trans4" src={s4}></img>
       </div>
       <div id="gosutools">
@@ -360,7 +383,11 @@ function HomePage() {
             </div>
           </div>
           <div className="col-sm-6">
-            <img src={sr5} className="img-fluid section-img"></img>
+            {isMobile ? (
+              <img src={sr5sm} className="img-fluid section-img"></img>
+            ) : (
+              <img src={sr5} className="img-fluid section-img"></img>
+            )}
           </div>
         </div>
       </div>
