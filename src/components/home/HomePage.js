@@ -51,7 +51,6 @@ function HomePage() {
       console.log(window.innerWidth <= 575.98);
       updatePredicate();
     });
-    //   window.addEventListener("resize", updatePredicate());
   }, []);
 
   return (
