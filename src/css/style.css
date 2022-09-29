@@ -6,7 +6,7 @@ body {
 #app {
   background-color: #05071e;
   min-width: 1138px;
-  max-width: 1300px;
+  /* max-width: 1300px; */
   overflow: hidden;
   margin-right: auto;
   margin-left: auto;
