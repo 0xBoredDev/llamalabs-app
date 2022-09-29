@@ -91,7 +91,7 @@ function HomePage() {
                   <img className="social-img" src={si3}></img>
                 </a>
               </div>
-              <div className="col-sm-8">
+              <div className="col-sm-8 text-c">
                 <p className="title">llamaverse</p>
                 <h1 className="sub-title">Lorem ipsum dolor sit amet</h1>
                 <p className="description">
@@ -115,7 +115,7 @@ function HomePage() {
               </div>
             </div>
           </div>
-          <div className="col-sm-6">
+          <div className="col-sm-6 img-c">
             {isMobile ? (
               <img src={sr1sm} className="img-fluid section-img-sm"></img>
             ) : (
@@ -128,7 +128,7 @@ function HomePage() {
       <div id="whitelistping">
         <div className="row align-items-center section-info2">
           {!isMobile && (
-            <div className="col-sm-6">
+            <div className="col-sm-6 img-c">
               <img src={sl2} className="section-img"></img>
             </div>
           )}
@@ -160,7 +160,7 @@ function HomePage() {
                   <img className="social-img" src={si6}></img>
                 </a>
               </div>
-              <div className="col-sm-8">
+              <div className="col-sm-8 text-c">
                 <p className="title teal">wlp ping</p>
                 <h1 className="sub-title teal">Lorem ipsum dolor sit amet</h1>
                 <p className="description">
@@ -222,7 +222,7 @@ function HomePage() {
                   <img className="social-img" src={si9}></img>
                 </a>
               </div>
-              <div className="col-sm-8">
+              <div className="col-sm-8 text-c">
                 <p className="title lightred">op. sin</p>
                 <h1 className="sub-title lightred">
                   Lorem ipsum dolor sit amet
@@ -248,7 +248,7 @@ function HomePage() {
               </div>
             </div>
           </div>
-          <div className="col-sm-6">
+          <div className="col-sm-6 img-c">
             {isMobile ? (
               <img src={sr3sm} className="img-fluid section-img"></img>
             ) : (
@@ -261,7 +261,7 @@ function HomePage() {
       <div id="nucyber">
         <div className="row align-items-center section-info4">
           {!isMobile && (
-            <div className="col-sm-6" style={{ zIndex: 10 }}>
+            <div className="col-sm-6 img-c" style={{ zIndex: 10 }}>
               <img src={sl4} className="section-img"></img>
             </div>
           )}
@@ -293,7 +293,7 @@ function HomePage() {
                   <img className="social-img" src={si12}></img>
                 </a>
               </div>
-              <div className="col-sm-8">
+              <div className="col-sm-8 text-c">
                 <p className="title lightpurple">nucyber</p>
                 <h1 className="sub-title lightpurple">
                   Lorem ipsum dolor sit amet
@@ -357,7 +357,7 @@ function HomePage() {
                   <img className="social-img" src={si15}></img>
                 </a>
               </div>
-              <div className="col-sm-8">
+              <div className="col-sm-8 text-c">
                 <p className="title green">gosu.tools</p>
                 <h1 className="sub-title green">Lorem ipsum dolor sit amet</h1>
                 <p className="description">
@@ -381,7 +381,7 @@ function HomePage() {
               </div>
             </div>
           </div>
-          <div className="col-sm-6">
+          <div className="col-sm-6 img-c">
             {isMobile ? (
               <img src={sr5sm} className="img-fluid section-img"></img>
             ) : (

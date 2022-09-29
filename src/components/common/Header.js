@@ -22,7 +22,7 @@ const Header = () => {
                   llamaverse
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item d-none d-lg-block">
                 <span className="divider">|</span>
               </li>
               <li className="nav-item">
@@ -30,7 +30,7 @@ const Header = () => {
                   whitelistping
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item d-none d-lg-block">
                 <span className="divider">|</span>
               </li>
               <li className="nav-item">
@@ -38,7 +38,7 @@ const Header = () => {
                   operationsin
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item d-none d-lg-block">
                 <span className="divider">|</span>
               </li>
               <li className="nav-item">
@@ -46,7 +46,7 @@ const Header = () => {
                   nucyber
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item d-none d-lg-block">
                 <span className="divider">|</span>
               </li>
               <li className="nav-item">
