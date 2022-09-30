@@ -353,6 +353,9 @@ body {
   background-color: #05071e;
   text-align: center;
   border-top: 1px solid #e83fcb !important;
+  position: relative;
+  display: grid;
+  grid-template-rows: 1fr;
 }
 
 .footer-text {
@@ -617,5 +620,17 @@ body {
     color: white;
     padding: 12px 32px;
     margin: 10px 0 10px 0;
+  }
+
+  .section-info2 {
+    background-repeat: round;
+  }
+
+  .section-info4 {
+    background-repeat: round;
+  }
+
+  #gosutools {
+    margin-top: -10%;
   }
 }
